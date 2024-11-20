@@ -1,6 +1,6 @@
 require("dotenv").config();
 
-const io = require("socket.io")(process.env.PORT || 8080, {
+const io = require("socket.io")(8080, {
   cors: { origin: ["https://socket-io-ngr4.onrender.com"] },
 });
 
