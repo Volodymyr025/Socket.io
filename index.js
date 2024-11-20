@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const io = require("socket.io")(8080, {
-  cors: { origin: ["https://socket-io-ngr4.onrender.com"] },
+  cors: { origin: "https://socket-io-ngr4.onrender.com" },
 });
 
 const users = [];
