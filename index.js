@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const io = require("socket.io")(8080, {
-  cors: { origin: "https://chat-online-iota.vercel.app/" },
+  cors: { origin: "https://chat-online-iota.vercel.app" },
 });
 
 const users = [];
